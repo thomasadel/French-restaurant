@@ -1,0 +1,155 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.clr {
+    clear: both;
+}
+
+body {
+    font-family: 'segoe ui light';
+}
+
+.nav {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav ul {
+    overflow: auto;
+}
+
+.nav ul li {
+    float: right;
+    list-style: none;
+    padding: 10px 20px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.nav ul li a:hover{
+    color: gold;
+}
+.nav .logo {
+    float: left;
+}
+
+.nav .minilogo {
+    width: 80px;
+    height: 40px;
+}
+
+.home {
+    text-align: center;
+    background-image: url(../imges/shutterstock_277750193.jpg);
+    background-size: cover;
+    height: 620px;
+    color: #fff;
+}
+
+.home .big-logo {
+    margin-top: 100px;
+}
+
+.home p {
+    font-size: 32px;
+    font-family:
+}
+
+.home button {
+    padding: 15px 20px;
+    border: none;
+    margin: 10px;
+    border-radius: 3px;
+}
+
+.home .but1 {
+    background-color: coral;
+    cursor: pointer;
+}
+.btn2{
+        cursor: pointer;
+
+}
+
+.chef {
+    overflow: auto;
+}
+
+.chef-image {
+    width: 40%;
+}
+
+.chef-desc {
+    width: 60%;
+    text-align: center;
+    padding: 100px 0px;
+    height: 500px;
+}
+
+.chef-desc button {
+    padding: 10px 25px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+
+.chef-desc p {
+    padding: 15px;
+    font-size: 22px;
+}
+
+.chef img {
+    width: 100%;
+}
+
+.chef div {
+    float: left;
+}
+
+.view{
+    height: 300px;
+    background-attachment: fixed;
+    background-image: url(../imges/bg2.jpg);
+    
+}
+.meals {
+    overflow: auto;
+}
+
+.meals .meal {
+    width: 23%;
+    float: left;
+    padding: 30px 12px;
+    text-align: center;
+}
+
+.meal img {
+    border-radius: 50%;
+    margin: 15px 0px;
+}
+
+.meal h2,
+.meal p {
+    padding: 15px 0px;
+}
+
+.brdr {
+    margin: auto;
+    background-color: black;
+    width: 50%;
+    height: 2px;
+}
+.immg{
+    width: 1100px;
+    height: 550;
+    margin: auto;
+    background-color: aqua;
+}
+.immg img{
+    width: 100%
+}
